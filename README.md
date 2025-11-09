@@ -2,9 +2,9 @@
 
 Neural ODEs leverage Ordinary Differential Equations to develop new deep learning architectures. These architectures learn dynamics of the form:
 
-$
-\frac{dX(t)}{dt} = f_\theta(X(t), t), \quad X(0) = x,
-$
+
+$\frac{dX(t)}{dt} = f_\theta(X(t), t), \quad X(0) = x,$
+
 
 where $f_\theta$ is a neural network, and $x \in \mathbb{R}^n$ represents some data. The final prediction is then taken to be $X(1)$.
 
